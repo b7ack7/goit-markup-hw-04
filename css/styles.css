@@ -289,21 +289,7 @@ header {
   fill: #fff;
   background-color: var(--color-focus);
 }
-.permanent-clients-block {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-.permanent-clients-link {
-  width: 170px;
-  height: 92px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
+
 .permanent-clients-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -312,15 +298,27 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.permanent-icon {
+.permanent-clients-block {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.permanent-clients-link {
+  width: 170px;
+  height: 92px;
   display: flex;
   align-items: center;
   justify-content: center;
   fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 .permanent-clients-link:hover {
   fill: var(--color-focus);
+  border-color: var(--color-focus);
 }
+
 footer {
   padding: 60px 0;
   background-color: var(--color-brand);
@@ -357,6 +355,7 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
 .header-portfolio {
   border: 1px solid #ececec;
 }
