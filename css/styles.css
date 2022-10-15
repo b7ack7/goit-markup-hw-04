@@ -136,7 +136,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   padding: 200px 0;
-  background-image: url(/images/studio.image/backgroundimage.jpg);
+  background-image: url(../images/studio.image/backgroundimage.jpg);
   background-color: rgba(47, 48, 58, 0.4);
 }
 .container-main-button {
